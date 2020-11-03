@@ -63,8 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AbstractFactory\CBeggar.cs" />
+    <Compile Include="Assets\AbstractFactory\CFarmer.cs" />
+    <Compile Include="Assets\AbstractFactory\CNPCFactory.cs" />
+    <Compile Include="Assets\AbstractFactory\CNPCSpawner.cs" />
+    <Compile Include="Assets\AbstractFactory\CShopowner.cs" />
+    <Compile Include="Assets\AbstractFactory\CWorker.cs" />
+    <Compile Include="Assets\AbstractFactory\INPC.cs" />
+    <Compile Include="Assets\AbstractFactory\testFactory.cs" />
     <Compile Include="Assets\Fabrique.cs" />
     <Compile Include="Assets\Prototype.cs" />
+    <Compile Include="Assets\Singleton.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/basti/Desktop/Créations/Unity/ProjetPatronConception/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
